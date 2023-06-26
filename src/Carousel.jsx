@@ -16,6 +16,7 @@ this.setState({
  }
 
     render(){
+        throw new Error
         const {active}=this.state
         const {images}=this.props
         
